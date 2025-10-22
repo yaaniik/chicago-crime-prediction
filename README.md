@@ -3,7 +3,7 @@
 > Modello di Machine Learning per prevedere la probabilità di furti nei quartieri di Chicago utilizzando dati storici
 
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter)](https://jupyter.org/)
+[![Colab](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter)](https://jupyter.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0+-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
@@ -29,7 +29,7 @@ Stimare la probabilità che si verifichi un furto in ogni quartiere della città
 
 ### Fonte Dati
 **Chicago Data Portal - Crimes (2001 - Present)**  
-🔗 [Dataset Completo](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2)
+🔗 [Dataset Completo](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/data_preview)
 
 ### Statistiche
 - **Record totali**: ~7.000.000+
@@ -159,7 +159,7 @@ weighted avg       0.80      0.80      0.71     10000
 - `folium` - Mappe interattive
 
 **Ambiente:**
-- `Jupyter Notebook` / `Google Colab`
+- `Google Colab`
 - Python 3.8+
 
 ---
@@ -219,7 +219,7 @@ jupyter notebook
 ```
 
 **Download Dataset:**
-1. Vai su [Chicago Data Portal](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2)
+1. Vai su [Chicago Data Portal](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/data_preview)
 2. Scarica CSV (o usa API per campionamento)
 3. Posiziona in `data/crimes.csv`
 
@@ -302,21 +302,9 @@ Reale  No THEFT    7891     26
 
 ### Documentazione
 
-- 📄 [Report Completo](reports/Report_Completo.pdf) - Analisi dettagliata con grafici
-- 🎞️ [Presentazione](reports/Presentazione.pdf) - Slide riassuntiva 9 pagine
-- 📝 [Note Metodologiche](docs/metodologia.txt) - Scelte tecniche
-
-### Dataset Alternativi
-
-- [NYC Crime Data](https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i)
-- [San Francisco Crime Reports](https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-Historical-2003/tmnf-yvry)
-
-### Paper di Riferimento
-
-- [Predicting Crime Using Spatial Features](https://arxiv.org/abs/1803.04474)
-- [Machine Learning for Crime Prediction](https://dl.acm.org/doi/10.1145/3209978.3210043)
-
----
+- 📄 [report_chicago_crimes.pdf](https://github.com/user-attachments/files/23056907/report_chicago_crimes.pdf) - Analisi dettagliata
+- 🎞️ [Exercise_Chicago_Crimes_Presentation.pdf](https://github.com/user-attachments/files/23056918/Exercise_Chicago_Crimes_Presentation.pdf) - Slide riassuntiva 9 pagine
+- 📝 [Esercitazione_Progetto.docx](https://github.com/user-attachments/files/23056884/Esercitazione.Progetto.docx) - Traccia
 
 ## 👨‍💻 Autore
 
@@ -341,7 +329,7 @@ Il dataset è di proprietà della **City of Chicago** ed è rilasciato sotto lic
 ## 🙏 Riconoscimenti
 
 - **City of Chicago** - Per la disponibilità del dataset pubblico
-- **Exercise Academy AI** - Corso di formazione in Data Science
+- **Sinergye/Forma.temp Academy AI** - Corso di formazione in Data Science
 - **Community Open Source** - Librerie Python utilizzate
 
 ---
@@ -350,15 +338,10 @@ Il dataset è di proprietà della **City of Chicago** ed è rilasciato sotto lic
 
 **Per domande o collaborazioni:**
 - 📧 Email: yanik.dimitrov@outlook.com
-- 💬 [Apri Issue](https://github.com/tuousername/chicago-crime-analysis/issues) su GitHub
 - 🌟 Lascia una stella se il progetto ti è stato utile!
 
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Made%20with-Python%20%26%20❤️-blue?style=for-the-badge" alt="Made with Python" />
-</p>
-
-<p align="center">
-  <sub>Progetto realizzato per Exercise Academy AI - 2025</sub>
+  <sub>Progetto realizzato per Academy AI - 2025</sub>
 </p>
