@@ -149,7 +149,7 @@ weighted avg       0.80      0.80      0.71     10000
 ### Distribuzione Tipologie
 <img width="1296" height="558" alt="Distribuzione crimini per tipologia" src="https://github.com/user-attachments/assets/7e629426-4ba7-4bc5-a131-e69cdb312175" />
 
-*Top 20 tipologie di crimine più frequenti*
+*Top tipologie di crimine più frequenti*
 
 ---
 
