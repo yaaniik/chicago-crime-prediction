@@ -5,7 +5,6 @@
 [![Python](https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Colab](https://img.shields.io/badge/Google-Colab-F9AB00?logo=google-colab)](https://colab.research.google.com/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.2+-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 ---
 
