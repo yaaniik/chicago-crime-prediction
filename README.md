@@ -133,16 +133,15 @@ weighted avg       0.80      0.80      0.71     10000
 ## 📸 Visualizzazioni
 
 ### Mappa di Calore Geografica
-![Heatmap Chicago](reports/screenshots/heatmap.png)
-*Densità furti per quartiere (realizzata con Folium)*
+<img width="1601" height="783" alt="image" src="https://github.com/user-attachments/assets/b488e807-5d85-4852-81e8-79a35b11abbf" />
+
 
 ### Trend Temporale
-![Trend Annuale](reports/screenshots/trend_annuale.png)
-*Evoluzione crimini 2001-2025*
+<img width="889" height="500" alt="image" src="https://github.com/user-attachments/assets/e4872f8d-2b6f-462d-bca6-9bdd45145e4a" />
+
 
 ### Distribuzione Tipologie
-![Distribuzione Crimini](reports/screenshots/distribuzione.png)
-*Top 20 tipologie di crimine*
+<img width="1296" height="558" alt="image" src="https://github.com/user-attachments/assets/7e629426-4ba7-4bc5-a131-e69cdb312175" />
 
 ---
 
@@ -320,7 +319,7 @@ Data Scientist | Machine Learning Engineer
 
 ## 📄 Licenza
 
-Questo progetto è rilasciato sotto licenza **MIT**. Vedi il file [LICENSE](LICENSE) per dettagli.
+Questo progetto è rilasciato sotto licenza **MIT**.
 
 Il dataset è di proprietà della **City of Chicago** ed è rilasciato sotto licenza pubblica.
 
