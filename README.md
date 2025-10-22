@@ -224,7 +224,7 @@ jupyter notebook
 
 **Download file ipynb**
 1. Vai su Colab Ipynb
-2. Scarica il file ipynb colab_chicago_crimes [![Colab](https://colab.research.google.com/)
+2. Scarica il file ipynb colab_chicago_crimes ![Drive Download](https://colab.research.google.com/)
 3. Aprilo con Google Colab
 
 ---
