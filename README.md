@@ -315,7 +315,7 @@ Reale  No THEFT    7891     26
 
 ### Link Utili
 
-- 🔗 [Chicago Data Portal](https://data.cityofchicago.org/)
+- 🔗 [Chicago Data Portal](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data)
 - 📊 [Scikit-learn Docs](https://scikit-learn.org/stable/documentation.html)
 - 🗺️ [Folium Tutorial](https://python-visualization.github.io/folium/)
 
@@ -334,8 +334,6 @@ Data Scientist | Machine Learning Engineer
 ---
 
 ## 📄 Licenza
-
-Questo progetto è rilasciato sotto licenza **MIT**. Vedi [LICENSE](LICENSE) per dettagli.
 
 Il dataset è di proprietà della **City of Chicago** ed è rilasciato sotto licenza pubblica.
 
@@ -358,14 +356,9 @@ Il dataset è di proprietà della **City of Chicago** ed è rilasciato sotto lic
 **Per domande o collaborazioni:**
 
 - 📧 **Email**: yanik.dimitrov@outlook.com
-- 💬 **Issues**: [Apri segnalazione](https://github.com/yaaniik/chicago-crime-prediction/issues)
 - 🌟 **Lascia una stella** se il progetto ti è stato utile!
 
 ---
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Made%20with-Python%20%26%20❤️-blue?style=for-the-badge" alt="Made with Python" />
-</p>
 
 <p align="center">
   <sub>Progetto realizzato per Sinergye/Forma.temp Academy AI - 2025</sub>
