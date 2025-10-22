@@ -29,7 +29,7 @@ Stimare la probabilità che si verifichi un furto in ogni quartiere della città
 
 ### Fonte Dati
 **Chicago Data Portal - Crimes (2001 - Present)**  
-🔗 [Dataset Completo](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2)
+🔗 [Dataset Completo](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data)
 
 ### Statistiche
 - **Record totali**: ~7.000.000+
@@ -185,11 +185,9 @@ chicago-crime-prediction/
 │
 ├── reports/
 │   ├── Exercise_Chicago_Crimes_Presentation.pdf  # Slide (9 pagine)
-│   ├── report_chicago_crimes.pdf                 # Report completo
-│   └── Esercitazione_Progetto.docx               # Traccia
-│
+│   ├── report_chicago_crimes.pdf                 # Report completo            
 ├── docs/
-│   └── metodologia.txt        # Note tecniche
+│   └── Esercitazione_Progetto.docx # Traccia
 │
 ├── .gitignore
 └── README.md                  # Questo file
@@ -201,7 +199,7 @@ chicago-crime-prediction/
 
 ## 🚀 Come Usare il Progetto
 
-### Google Colab (Unico Metodo)
+### Google Colab
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Vh1Buixt1XV9j_PueX_UOUlPaXZBfot5)
 
