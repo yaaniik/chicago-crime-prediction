@@ -3,7 +3,7 @@
 > Modello di Machine Learning per prevedere la probabilità di furti nei quartieri di Chicago utilizzando dati storici
 
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Colab](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter)](https://jupyter.org/)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0+-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
