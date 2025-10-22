@@ -2,10 +2,10 @@
 
 > Modello di Machine Learning per prevedere la probabilità di furti nei quartieri di Chicago utilizzando dati storici
 
-
-[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Colab](https://img.shields.io/badge/Google-Colab-F9AB00?logo=google-colab)](https://colab.research.google.com/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0+-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.2+-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 ---
 
@@ -29,7 +29,7 @@ Stimare la probabilità che si verifichi un furto in ogni quartiere della città
 
 ### Fonte Dati
 **Chicago Data Portal - Crimes (2001 - Present)**  
-🔗 Dataset Completo
+🔗 [Dataset Completo](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2)
 
 ### Statistiche
 - **Record totali**: ~7.000.000+
@@ -38,6 +38,7 @@ Stimare la probabilità che si verifichi un furto in ogni quartiere della città
 - **Formato**: CSV
 
 ### Variabili Principali
+
 | Colonna | Tipo | Descrizione |
 |---------|------|-------------|
 | `Date` | DateTime | Data e ora del crimine |
@@ -61,7 +62,7 @@ Stimare la probabilità che si verifichi un furto in ogni quartiere della città
 **Feature Selection:**
 ```python
 features = [
-    'Community Area',    # Quartiere
+    'Community Area',        # Quartiere
     'Location Description',  # Contesto
     'Year', 'Month', 'Hour'  # Dimensione temporale
 ]
@@ -133,49 +134,59 @@ weighted avg       0.80      0.80      0.71     10000
 ## 📸 Visualizzazioni
 
 ### Mappa di Calore Geografica
-<img width="1601" height="783" alt="image" src="https://github.com/user-attachments/assets/b488e807-5d85-4852-81e8-79a35b11abbf" />
+<img width="1601" height="783" alt="Heatmap crimini Chicago" src="https://github.com/user-attachments/assets/b488e807-5d85-4852-81e8-79a35b11abbf" />
 
+*Distribuzione geografica dei crimini con concentrazione nelle zone centrali*
+
+---
 
 ### Trend Temporale
-<img width="889" height="500" alt="image" src="https://github.com/user-attachments/assets/e4872f8d-2b6f-462d-bca6-9bdd45145e4a" />
+<img width="889" height="500" alt="Trend annuale crimini" src="https://github.com/user-attachments/assets/e4872f8d-2b6f-462d-bca6-9bdd45145e4a" />
 
+*Evoluzione del numero di crimini dal 2001 al 2025*
+
+---
 
 ### Distribuzione Tipologie
-<img width="1296" height="558" alt="image" src="https://github.com/user-attachments/assets/7e629426-4ba7-4bc5-a131-e69cdb312175" />
+<img width="1296" height="558" alt="Distribuzione crimini per tipologia" src="https://github.com/user-attachments/assets/7e629426-4ba7-4bc5-a131-e69cdb312175" />
+
+*Top 20 tipologie di crimine più frequenti*
 
 ---
 
 ## 🛠️ Tecnologie Utilizzate
 
+**Ambiente di Sviluppo:**
+- **Google Colab** - Notebook cloud con GPU gratuita
+- **Google Drive** - Storage dataset
+
 **Data Science Stack:**
-- `pandas` - Manipolazione dati
-- `numpy` - Calcoli numerici
-- `scikit-learn` - Machine Learning
+- `pandas 1.5+` - Manipolazione dati
+- `numpy 1.23+` - Calcoli numerici
+- `scikit-learn 1.2+` - Machine Learning
 
 **Visualizzazione:**
-- `matplotlib` - Grafici statici
-- `seaborn` - Visualizzazioni statistiche
-- `folium` - Mappe interattive
+- `matplotlib 3.7+` - Grafici statici
+- `seaborn 0.12+` - Visualizzazioni statistiche
+- `folium 0.14+` - Mappe interattive
 
-**Ambiente:**
-- `Google Colab`
-- Python 3.8+
+**Versione Python:** 3.10 (Google Colab runtime)
 
 ---
 
 ## 📂 Struttura Progetto
 ```
-chicago-crime-analysis/
+chicago-crime-prediction/
 ├── data/
-│   └── README.md              # Link al dataset (file troppo grande)
+│   └── README.md              # Link al dataset
 │
 ├── notebooks/
 │   └── README.md              # Link a Google Colab
 │
 ├── reports/
-│   ├── Presentazione.pdf      # Slide riassuntiva
-│   ├── Report_Completo.pdf    # Analisi dettagliata
-│   └── screenshots/           # Immagini visualizzazioni
+│   ├── Exercise_Chicago_Crimes_Presentation.pdf  # Slide (9 pagine)
+│   ├── report_chicago_crimes.pdf                 # Report completo
+│   └── Esercitazione_Progetto.docx               # Traccia
 │
 ├── docs/
 │   └── metodologia.txt        # Note tecniche
@@ -184,48 +195,39 @@ chicago-crime-analysis/
 └── README.md                  # Questo file
 ```
 
+**Nota:** Il notebook (`.ipynb`) è ospitato su Google Colab e non è incluso nel repository.
+
 ---
 
 ## 🚀 Come Usare il Progetto
 
-### Opzione 1: Google Colab (Consigliato)
+### Google Colab (Unico Metodo)
 
-[![Colab](https://img.shields.io/badge/Google-Colab-F9AB00?logo=google-colab)](https://colab.research.google.com/)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Vh1Buixt1XV9j_PueX_UOUlPaXZBfot5)
 
-**Accesso diretto al notebook interattivo:**
+**Accesso diretto al notebook:**
+
 1. Click sul badge "Open in Colab" sopra
-2. Esegui le celle sequenzialmente (Runtime → Run all)
-3. Esplora le visualizzazioni e i risultati
+2. Il notebook si aprirà automaticamente in Google Colab
+3. **(Opzionale)** Salva una copia: **File → Save a copy in Drive**
+4. Esegui tutte le celle: **Runtime → Run all**
+5. Attendi il completamento (~10-15 minuti)
+6. Esplora visualizzazioni e risultati
 
-### Opzione 2: Esecuzione Locale
+**Requisiti:**
+- ✅ Account Google (gratuito)
+- ✅ Browser web
+- ❌ Nessuna installazione locale necessaria
+- ❌ Nessun setup Python richiesto
 
-**Prerequisiti:**
-```bash
-python --version  # >= 3.8
-```
+**Note:**
+- Il notebook carica automaticamente i dati da URL pubblico
+- Esecuzione nel cloud di Google (GPU disponibile gratuitamente)
+- Modifiche salvate automaticamente su Drive (se salvi copia)
 
-**Setup:**
-```bash
-# Clone repository
-git clone https://github.com/tuousername/chicago-crime-analysis.git
-cd chicago-crime-analysis
-
-# Installa dipendenze
-pip install pandas numpy scikit-learn matplotlib seaborn folium jupyter
-
-# Avvia Jupyter
-jupyter notebook
-```
-
-**Download Dataset:**
-1. Vai su Chicago Data Portal
-2. Scarica CSV (o usa API per campionamento)
-3. Posiziona in `data/crimes.csv`
-
-**Download file ipynb**
-1. Vai su Colab Ipynb
-2. Scarica il file ipynb colab_chicago_crimes [Drive Download](https://colab.research.google.com/)
-3. Aprilo con Google Colab
+**Link alternativi:**
+- 📂 [Visualizza su Drive](https://drive.google.com/file/d/1Vh1Buixt1XV9j_PueX_UOUlPaXZBfot5/view?usp=drive_link) (solo lettura)
+- ⬇️ [Download .ipynb](https://drive.google.com/uc?export=download&id=1Vh1Buixt1XV9j_PueX_UOUlPaXZBfot5) (backup locale)
 
 ---
 
@@ -245,11 +247,13 @@ jupyter notebook
 - ~15% record con coordinate mancanti
 - **Soluzione**: Drop righe incomplete su feature chiave
 
+---
+
 ### Limitazioni
 
-- ⚠️ **Recall bassa classe "furto"** (0.02): modello conservativo, predice pochi furti
-- ⚠️ **Possibili bias**: dati dipendono da segnalazioni effettive (underreporting)
-- ⚠️ **Temporalità**: dati pre-2020 potrebbero non riflettere dinamiche post-pandemia
+- ⚠️ **Recall bassa classe "furto"** (0.02): modello conservativo
+- ⚠️ **Possibili bias**: dipendenza da segnalazioni effettive
+- ⚠️ **Temporalità**: dinamiche pre-2020 potrebbero differire dal post-pandemia
 
 ---
 
@@ -264,20 +268,22 @@ Reale  No THEFT    7891     26
 ```
 
 **Interpretazione:**
-- **True Negatives (7891)**: Correttamente identificati non-furti
+- **True Negatives (7891)**: Correttamente identificati come non-furti ✅
 - **False Positives (26)**: Erroneamente predetti come furti
 - **False Negatives (2042)**: Furti non rilevati ⚠️
-- **True Positives (41)**: Furti correttamente identificati
+- **True Positives (41)**: Furti correttamente identificati ✅
+
+---
 
 ### Feature Importance
 
-| Feature | Importanza |
-|---------|------------|
-| Community Area | 0.42 |
-| Hour | 0.28 |
-| Location Description | 0.18 |
-| Month | 0.08 |
-| Year | 0.04 |
+| Feature | Importanza | Impatto |
+|---------|------------|---------|
+| Community Area | 0.42 | 🔴 Molto Alto |
+| Hour | 0.28 | 🟠 Alto |
+| Location Description | 0.18 | 🟡 Medio |
+| Month | 0.08 | 🟢 Basso |
+| Year | 0.04 | 🟢 Basso |
 
 ---
 
@@ -288,7 +294,7 @@ Reale  No THEFT    7891     26
 - [ ] **SMOTE**: Bilanciamento avanzato delle classi
 - [ ] **XGBoost/LightGBM**: Algoritmi gradient boosting
 - [ ] **Deep Learning**: LSTM per serie temporali
-- [ ] **Feature engineering**: 
+- [ ] **Feature Engineering**: 
   - Distanza da stazioni metro
   - Densità popolazione per quartiere
   - Indicatori economici (reddito medio)
@@ -297,7 +303,7 @@ Reale  No THEFT    7891     26
 
 - [ ] **Dashboard interattiva** (Streamlit/Dash)
 - [ ] **API predittiva** per forze dell'ordine
-- [ ] **Sistema di alerting** per zone ad alto rischio
+- [ ] **Sistema di alerting** automatico
 - [ ] **Analisi real-time** con dati streaming
 
 ---
@@ -306,25 +312,33 @@ Reale  No THEFT    7891     26
 
 ### Documentazione
 
-- 📄 report_chicago_crimes.pdf - Analisi dettagliata
-- 🎞️ Exercise_Chicago_Crimes_Presentation.pdf - Slide riassuntiva 9 pagine
-- 📝 Esercitazione_Progetto.docx - Traccia
+- 📄 [Report Completo](reports/report_chicago_crimes.pdf) - Analisi dettagliata
+- 🎞️ [Presentazione](reports/Exercise_Chicago_Crimes_Presentation.pdf) - Slide (9 pagine)
+- 📋 [Traccia Progetto](reports/Esercitazione_Progetto.docx) - Requisiti originali
+
+### Link Utili
+
+- 🔗 [Chicago Data Portal](https://data.cityofchicago.org/)
+- 📊 [Scikit-learn Docs](https://scikit-learn.org/stable/documentation.html)
+- 🗺️ [Folium Tutorial](https://python-visualization.github.io/folium/)
+
+---
 
 ## 👨‍💻 Autore
 
 **Yanik Dimitrov**  
 Data Scientist | Machine Learning Engineer
 
-- 🌐 **Portfolio**: yanikdimitrov.vercel.app
-- 💼 **LinkedIn**: linkedin.com/in/yanik-dimitrov
+- 🌐 **Portfolio**: [yanikdimitrov.vercel.app](https://yanikdimitrov.vercel.app/)
+- 💼 **LinkedIn**: [linkedin.com/in/yanik-dimitrov](https://www.linkedin.com/in/yanik-dimitrov/)
 - 📧 **Email**: yanik.dimitrov@outlook.com
-- 💻 **GitHub**: @yaaniik
+- 💻 **GitHub**: [@yaaniik](https://github.com/yaaniik)
 
 ---
 
 ## 📄 Licenza
 
-Questo progetto è rilasciato sotto licenza **MIT**.
+Questo progetto è rilasciato sotto licenza **MIT**. Vedi [LICENSE](LICENSE) per dettagli.
 
 Il dataset è di proprietà della **City of Chicago** ed è rilasciato sotto licenza pubblica.
 
@@ -332,20 +346,30 @@ Il dataset è di proprietà della **City of Chicago** ed è rilasciato sotto lic
 
 ## 🙏 Riconoscimenti
 
-- **City of Chicago** - Per la disponibilità del dataset pubblico
-- **Sinergye/Forma.temp Academy AI** - Corso di formazione in Data Science
-- **Community Open Source** - Librerie Python utilizzate
+**Organizzazioni:**
+- **City of Chicago** - Per il dataset pubblico
+- **Sinergye/Forma.temp Academy AI** - Formazione in Data Science
+
+**Tecnologie:**
+- **Google** - Per Colab e infrastruttura cloud
+- **Python Community** - Per le librerie open source
 
 ---
 
 ## 📞 Contatti & Supporto
 
 **Per domande o collaborazioni:**
-- 📧 Email: yanik.dimitrov@outlook.com
-- 🌟 Lascia una stella se il progetto ti è stato utile!
+
+- 📧 **Email**: yanik.dimitrov@outlook.com
+- 💬 **Issues**: [Apri segnalazione](https://github.com/yaaniik/chicago-crime-prediction/issues)
+- 🌟 **Lascia una stella** se il progetto ti è stato utile!
 
 ---
 
 <p align="center">
-  <sub>Progetto realizzato per Academy AI - 2025</sub>
+  <img src="https://img.shields.io/badge/Made%20with-Python%20%26%20❤️-blue?style=for-the-badge" alt="Made with Python" />
+</p>
+
+<p align="center">
+  <sub>Progetto realizzato per Sinergye/Forma.temp Academy AI - 2025</sub>
 </p>
