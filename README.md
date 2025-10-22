@@ -29,7 +29,7 @@ Stimare la probabilità che si verifichi un furto in ogni quartiere della città
 
 ### Fonte Dati
 **Chicago Data Portal - Crimes (2001 - Present)**  
-🔗 [Dataset Completo](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data)
+🔗 [Dataset](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data)
 
 ### Statistiche
 - **Record totali**: ~7.000.000+
