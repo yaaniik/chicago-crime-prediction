@@ -223,7 +223,7 @@ jupyter notebook
 3. Posiziona in `data/crimes.csv`
 
 **Download file ipynb**
-1. Vai su [[Chicago Data Portal](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/data_preview)](https://drive.google.com/file/d/1Vh1Buixt1XV9j_PueX_UOUlPaXZBfot5/view?usp=drive_link)
+1. Vai su [Colab Ipynb](https://drive.google.com/file/d/1Vh1Buixt1XV9j_PueX_UOUlPaXZBfot5/view?usp=drive_link)
 2. Scarica il file ipynb colab_chicago_crimes
 3. Aprilo con Google Colab
 
