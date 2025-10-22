@@ -190,7 +190,7 @@ chicago-crime-analysis/
 
 ### Opzione 1: Google Colab (Consigliato)
 
-[!Open In Colab](https://colab.research.google.com/drive/1bQ86WEUqSkAMbP2oJbCFLZ4pVs2HmOLR)
+[![Colab](https://img.shields.io/badge/Google-Colab-F9AB00?logo=google-colab)](https://colab.research.google.com/)
 
 **Accesso diretto al notebook interattivo:**
 1. Click sul badge "Open in Colab" sopra
